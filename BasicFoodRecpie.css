@@ -1,0 +1,133 @@
+.navList{
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin: 15px;
+    padding: 8px;
+    position: relative;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+
+    height: 100px;
+    width: 100vb;
+    overflow: none;
+    
+    
+
+}
+.navcontainer{
+
+    width: 100vw;
+    background-color: #c56262;
+    background-color: #DCD9D4;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+ 
+    height: 100px;
+}
+#navlogo{
+    font-size: larger;
+    color:orange ;
+    text-shadow: 8px 8px 3px  whitesmoke;
+    font-weight: 1000px;
+    font-weight: bolder;
+    
+    
+    
+      
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+    
+}
+#title2{
+    display: flex;
+    gap: 40px;
+    
+    
+    
+}
+#title2 a {
+    
+    color: white;
+    transition: color 0.5s ease-in-out;
+    
+    
+}
+#title2 a:hover{
+
+    color: #d53369;
+
+}
+.footer{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    text-align: center;
+    font-size: medium;
+}
+#text2{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.contentbox{
+    width: 55%;
+    margin: auto;
+    border: 2px solid black;
+    
+    background: #d53369;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbad6d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbad6d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    animation-name: move;
+    animation-timing-function:linear;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes move{
+
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(55px);
+    }
+    
+}
+#h1{
+    color: #c56262;
+}
+.leftbox{
+    overflow: auto;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+#barfi{
+    color: brown;
+}
+.leftbox2{
+    overflow: auto;
+}
+.item2{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    background-color: black;
+}
