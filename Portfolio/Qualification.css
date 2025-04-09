@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.qualification{
+    background: url(vecteezy_empty-room-with-abstract-walls-and-floor-lighting-creating_54864270.jpg);
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: aliceblue;
+    text-shadow: 0px 2px 8px rgb(242, 87, 87);
+}
+.box1{
+   height: 1200px;
+   width: 1200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 45px;
+}
+.Education{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Skills{
+
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.projects{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.Extra{
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.b1{
+    background-color: rgb(227, 124, 124);
+    color: aliceblue;
+
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
